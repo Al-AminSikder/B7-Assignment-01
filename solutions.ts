@@ -4,10 +4,12 @@ function filterEvenNumbers(numbers: number[]): number[] {
 }
 
 
+
 // Problem 2
 function reverseString(input: string): string {
   return input.split("").reverse().join("");
 }
+
 
 
 // Problem 3
@@ -20,10 +22,12 @@ function checkType(value: StringOrNumber): string {
 }
 
 
+
 // Problem 4
 function getProperty<T, K extends keyof T>(obj: T, key: K): T[K] {
   return obj[key];
 }
+
 
 
 // Problem 5
@@ -38,6 +42,7 @@ function toggleReadStatus(book: Book): Book & { isRead: boolean } {
     isRead: true,
   };
 }
+
 
 
 // Problem 6
@@ -60,6 +65,7 @@ class Student extends Person {
     return `Name: ${this.name}, Age: ${this.age}, Grade: ${this.grade}`;
   }
 }
+
 
 
 // Problem 7
