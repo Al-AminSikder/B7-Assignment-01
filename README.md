@@ -16,7 +16,6 @@ This repository contains solutions for the "Advanced Problem Solving with TypeSc
 
 The assignment also includes two technical blog posts written in Markdown format.
 
----
 
 # Project Structure
 
@@ -26,8 +25,6 @@ The assignment also includes two technical blog posts written in Markdown format
 ├── blog-2.md
 └── README.md
 ```
-
----
 
 # Problem List
 
@@ -85,9 +82,3 @@ npm install -g typescript ts-node
 ```bash
 ts-node solutions.ts
 ```
-
----
-
-# Author
-
-Md. Al-Amin Sikder

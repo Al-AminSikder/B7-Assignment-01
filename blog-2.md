@@ -6,7 +6,6 @@ Generics are one of the most powerful features of TypeScript. They allow develop
 
 Without generics, developers often need to write duplicate code for different data types. Generics solve this problem by making components flexible and reusable without losing type information.
 
----
 
 # What are Generics?
 
@@ -22,7 +21,6 @@ function returnString(value: string): string {
 
 This function only works with strings. If we want the same functionality for numbers or booleans, we would need separate functions.
 
----
 
 # Using Generics
 
@@ -46,7 +44,6 @@ identity<boolean>(true);
 
 TypeScript automatically preserves the correct type for each value.
 
----
 
 # Benefits of Generics
 
@@ -71,7 +68,6 @@ getFirstElement<string>(["A", "B", "C"]);
 
 One function works for both numbers and strings.
 
----
 
 ## 2. Strong Type Safety
 
@@ -85,7 +81,6 @@ TypeScript understands that `numberValue` is a number and provides proper sugges
 
 This reduces bugs and improves code reliability.
 
----
 
 ## 3. Reduced Code Duplication
 
@@ -111,7 +106,6 @@ function data<T>(value: T): T {
 
 Generics help keep the code clean and maintainable.
 
----
 
 # Generics with Interfaces
 
@@ -137,7 +131,6 @@ const userResponse: ApiResponse<string> = {
 
 This makes interfaces flexible while preserving strict typing.
 
----
 
 # Generics in Real Projects
 
@@ -151,7 +144,6 @@ Generics are widely used in modern TypeScript applications, especially in:
 
 They help developers create scalable applications with less duplicated code.
 
----
 
 # Conclusion
 

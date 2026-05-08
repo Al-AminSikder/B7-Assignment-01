@@ -6,7 +6,6 @@ TypeScript is designed to provide type safety, helping developers catch errors b
 
 In contrast, `unknown` is considered a safer alternative because it forces developers to verify data types before using them. This article explains why `unknown` is preferred and how type narrowing works in TypeScript.
 
----
 
 # Understanding the `any` Type
 
@@ -34,7 +33,6 @@ Although this code compiles successfully, it crashes at runtime because strings 
 
 This is why `any` is dangerous. It removes the main advantage of TypeScript.
 
----
 
 # Understanding the `unknown` Type
 
@@ -50,7 +48,6 @@ The above code produces a TypeScript error because the type is unknown.
 
 Before using the value, we must narrow the type.
 
----
 
 # What is Type Narrowing?
 
@@ -80,7 +77,6 @@ if (typeof value === "number") {
 
 This approach prevents unexpected runtime errors and keeps the code safe.
 
----
 
 # Comparison Between `any` and `unknown`
 
@@ -91,7 +87,6 @@ This approach prevents unexpected runtime errors and keeps the code safe.
 | Requires Type Checking | No | Yes |
 | Risk of Runtime Errors | High | Low |
 
----
 
 # Why `unknown` is the Better Choice
 
@@ -104,7 +99,6 @@ Using `unknown` encourages developers to write safer and more predictable code. 
 
 Because the type must be verified before use, bugs are reduced significantly.
 
----
 
 # Conclusion
 
